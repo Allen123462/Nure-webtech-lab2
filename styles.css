@@ -1,0 +1,87 @@
+/* head */
+
+.navbar {
+    background-color: #1979ff;
+    overflow: hidden;
+}
+
+.navbar h2 {
+    color: white;
+    padding-left: 20px ;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* body */
+
+.trexImg {
+    float: left;
+    max-width: 700px;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .trexImg {
+        width: 600px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .trexImg {
+        width: 400px;
+        height: auto;
+    }
+}
+
+section[id="fourth"] .variantTable {
+    border: 2px solid rgb(136, 0, 0); 
+    border-collapse: collapse; 
+    width: 25%;
+    margin: 0 auto; 
+}
+
+section[id="fourth"] .variantTable th, 
+section[id="fourth"] .variantTable td {
+    border-bottom: 1px solid rgb(136, 0, 0);
+    text-align: center;
+}
+
+
+section[id="fourth"] .variantTable tr:nth-child(odd) {
+    background-color: #ffe6ac;
+    border-bottom: 2px solid rgb(136, 0, 0);
+}
+
+section[id="fourth"] .variantTable tr:first-child{
+    background-color: rgb(136, 0, 0);
+    color: white;
+}
+
+section[id="fourth"] .variantTable th:first-child, 
+section[id="fourth"] .variantTable td:first-child {
+    text-align: left;
+}
